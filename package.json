@@ -1,6 +1,6 @@
 {
   "name": "selectdown",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A dropdown select input for mithril",
   "main": "index.js",
   "scripts": {
