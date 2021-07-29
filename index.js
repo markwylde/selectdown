@@ -85,7 +85,7 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="36" height="24" viewBox="0 0 36 36">
                   <path d="M10.5 15l7.5 7.5 7.5-7.5z"/>
                 </svg>
-              `})),(0,se.default)("div",{style:{display:"none"},"aria-live":"assertive"},f.length+" suggestions found, choose using the up and down arrows"),(0,se.default)("sd-dropdown",{tabindex:0,onfocusin:g,class:ui},(0,se.default)("ul",{id:c,role:"listbox"},f.map(w=>(0,se.default)("li",{role:"option",className:w===l?"active":void 0,onclick:d.bind(null,w)},p({item:w}))))))}}}var pi=e=>Array(e).fill("").map((t,i)=>i),hi=ge`
+              `})),s&&(0,se.default)("div",{style:{display:"none"},"aria-live":"assertive"},f.length+" suggestions found, choose using the up and down arrows"),(0,se.default)("sd-dropdown",{tabindex:0,onfocusin:g,class:ui},(0,se.default)("ul",{id:c,role:"listbox"},f.map(w=>(0,se.default)("li",{role:"option",className:w===l?"active":void 0,onclick:d.bind(null,w)},p({item:w}))))))}}}var pi=e=>Array(e).fill("").map((t,i)=>i),hi=ge`
   label {
     font-weight: bold;
   }
