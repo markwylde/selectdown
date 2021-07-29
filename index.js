@@ -48,7 +48,7 @@
   }
 
   & li {
-    padding: 5px;
+    padding: 7px;
     cursor: pointer;
   }
 `,fi=ge`
