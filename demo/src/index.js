@@ -6,6 +6,16 @@ import SelectDown from '../../lib/index';
 
 const createArray = length => Array(length).fill('').map((_, index) => index);
 
+const demoStyles = css`
+  label {
+    font-weight: bold;
+  }
+
+  label:after {
+    content: ':';
+  }
+`
+
 function Demo () {
   const state = {
     items: createArray(100).map(index => {
@@ -38,10 +48,12 @@ function Demo () {
   return {
     view: () => {
       return (
-        m('div',
+        m('div', { class: demoStyles },
           m('h1', 'Demo of SelectDown'),
-          m('input'),
+          m('label', { htmlFor: 'exampleInput' }, 'Number'),
           m(SelectDown, {
+            id: 'exampleInput',
+
             class: css`
               sd-dropdown {
                 background-color: #ffffd5;

@@ -16,6 +16,7 @@ npm i --save selectdown
 The basic usage can be seen below, but a better example is [the demo](demo/src/index.js) included in this project.
 
 ```js
+const SelectDown = require('selectdown');
 m(SelectDown, {
   onchange: () => {},
   onsearch: () => {},
