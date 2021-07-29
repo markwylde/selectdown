@@ -72,7 +72,8 @@ function Demo () {
               m('span', { key: item.id }, item.title)
             )
           }),
-          state.value && state.value.title
+
+          m('div', 'You have selected: ', state.value ? state.value.title : '(nothing)')
         )
       )
     }
