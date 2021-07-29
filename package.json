@@ -2,7 +2,7 @@
   "name": "selectdown",
   "version": "1.0.3",
   "description": "A dropdown select input for mithril",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "start": "esbuild --servedir=demo/dist --bundle demo/src/*.js --outdir=demo/dist --minify --sourcemap",
     "build": "esbuild --bundle demo/src/*.js --outdir=demo/dist --minify --sourcemap",
