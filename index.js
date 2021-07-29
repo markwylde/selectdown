@@ -30,7 +30,6 @@
   width: 100%;
 
   & ul {
-    color: rebeccapurple;
     max-height: 200px;
     overflow: auto;
     border: 1px solid black;
